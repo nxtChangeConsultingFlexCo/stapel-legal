@@ -6,6 +6,7 @@ Website und Rechtstexte zur iPhone-App Stapel, erreichbar unter https://stapel.n
 
 - `index.html` Startseite (Platzhalter bis zum Launch: ohne Store-Abzeichen und Bilder)
 - `datenschutz.md`, `nutzungsbedingungen.md`, `support.md` → `/datenschutz/`, `/nutzungsbedingungen/`, `/support/`
+- `privacy.md`, `terms.md`, `en/index.html` → `/privacy/`, `/terms/`, `/en/` (Englisch, Rückfall für alle Länder außer DE/AT/CH)
 - `CNAME` bindet die Subdomain; der DNS-Eintrag liegt bei Hostinger: CNAME `stapel` → `nxtchangeconsultingflexco.github.io`
 
 Die Adressen stehen in der App in `App/AppModel.swift` (`Legal`) und gehören in App Store Connect.
@@ -18,4 +19,4 @@ Die Adressen stehen in der App in `App/AppModel.swift` (`Legal`) und gehören in
 3. Vor dem Launch: Rechtstexte durch den Anwalt prüfen lassen. Sie sind aus den geprüften Texten von
    Auszeit abgeleitet und um Kamera, Fotos, Dateien, Cloud-Ablage, Sprachmodell auf dem Gerät und
    Mitteilungen ergänzt (Stand 12.10.2026, Entwurf).
-4. Englische Fassungen (`privacy.md`, `terms.md`, `en/`) folgen mit der englischen Oberfläche der App.
+4. Englische Fassungen: `privacy.md` → `/privacy/`, `terms.md` → `/terms/`, Support zweisprachig in `support.md`, Startseite `en/index.html`.

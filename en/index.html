@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stapel: Receipts &amp; Invoices</title>
+  <meta name="description" content="Stapel reads receipts and invoices on your iPhone: line items, total, category, price history, filing as PDF to your cloud folder. No account, no server. An app from Graz, Austria.">
+  <meta property="og:title" content="Stapel: Receipts &amp; Invoices">
+  <meta property="og:description" content="The pile sorts itself. Read, sort and file receipts, all on your iPhone.">
+  <meta property="og:type" content="website">
+  <meta name="color-scheme" content="light dark">
+  <link rel="alternate" hreflang="de" href="../">
+  <link rel="alternate" hreflang="en" href="./">
+  <style>
+:root{--bg:#f6f5f0;--bg2:#fff;--fg:#1b2430;--muted:#5d6570;--accent:#1f6f78;--line:#dfe2db;--maxw:1040px;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#161b22;--bg2:#1f2630;--fg:#eceeea;--muted:#a6afb9;--accent:#6fc0c8;--line:#333c47;color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 16px}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+header.top .brand{display:flex;align-items:center;gap:12px;color:var(--fg);text-decoration:none;font-weight:600}
+header.top .brand span.mark{display:inline-block;width:40px;height:40px;border-radius:10px;background:var(--accent)}
+header.top nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:15px}
+header.top nav a:hover{color:var(--fg)}
+.hero{padding:40px 0 24px}
+.kicker{color:var(--accent);letter-spacing:.14em;text-transform:uppercase;font-size:12px;font-weight:600}
+h1{font-family:"New York","Iowan Old Style",Georgia,"Times New Roman",serif;font-weight:600;font-size:clamp(34px,6vw,56px);line-height:1.08;margin:10px 0 18px;letter-spacing:-.01em}
+.lead{font-size:19px;color:var(--muted);max-width:640px;margin:0 0 26px}
+.soon{display:inline-block;border:1px solid var(--line);border-radius:8px;padding:10px 14px;color:var(--muted);font-size:15px}
+section{padding:30px 0;border-top:1px solid var(--line)}
+h2{font-family:"New York","Iowan Old Style",Georgia,"Times New Roman",serif;font-weight:600;font-size:30px;margin:0 0 14px;letter-spacing:-.01em}
+section p{max-width:680px;margin:0 0 12px}
+ul.how{list-style:none;padding:0;margin:0;max-width:680px}
+ul.how li{padding:10px 0 10px 28px;position:relative;border-bottom:1px solid var(--line)}
+ul.how li::before{content:"";position:absolute;left:0;top:19px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;color:var(--muted);font-size:14px}
+footer .links a{margin-right:18px;color:var(--fg);text-decoration:none}
+footer .links a:hover{text-decoration:underline}
+footer address{font-style:normal;margin:16px 0 0;line-height:1.5}
+footer .note{margin-top:16px}
+@media (max-width:720px){.two{grid-template-columns:1fr}header.top nav a{margin-left:12px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="../"><span class="mark" aria-hidden="true"></span>Stapel</a>
+      <nav>
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy</a>
+        <a href="../" lang="de">Deutsch</a>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <div class="kicker">iPhone app</div>
+      <h1>The pile sorts itself.</h1>
+      <p class="lead">Photograph a receipt or an invoice, done. Stapel reads line items, total and date on your iPhone, sorts the receipt into a category, shows you month and year and files the original as a PDF in your cloud folder. No account, no server.</p>
+      <span class="soon">Coming to the App Store</span>
+    </div>
+
+    <section>
+      <h2>How it works</h2>
+      <ul class="how">
+        <li>Photograph a receipt, pick it from Photos or share a PDF with Stapel.</li>
+        <li>The app reads issuer, date, total, tax rates and every line item, on the iPhone.</li>
+        <li>It checks whether the items add up to the total and shows you where something is off.</li>
+        <li>A category per receipt and per item; the app learns what you correct.</li>
+        <li>Overview by month and year, issuer and product. Price history: “butter in July +18 %”.</li>
+        <li>Enter a warranty and a payment deadline; Stapel reminds you in time.</li>
+        <li>With Plus: the original as a searchable PDF in iCloud Drive, OneDrive or Google Drive, named by date, issuer and total.</li>
+      </ul>
+    </section>
+
+    <section>
+      <div class="two">
+        <div>
+          <h2>No account. No data. No ads.</h2>
+          <p>No account, no server, no analytics. Text recognition and the language model run on the device. Nobody sees your receipts but you, and the cloud folder is yours.</p>
+        </div>
+        <div>
+          <h2>Honestly</h2>
+          <p>Recognition can be wrong. That is why Stapel always shows whether the items add up to the total, and every value can be changed. Stapel is an overview for your home, not bookkeeping.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="links">
+        <a href="../support/">Support</a>
+        <a href="../privacy/">Privacy Policy</a>
+        <a href="../terms/">Terms of Use</a>
+      </div>
+      <address>
+        <strong>Provider:</strong> nxtChange Consulting FlexCo · Neugasse 9/1 · 8045 Graz, Austria<br>
+        Company register FN 648962g, Regional Court for Civil Matters Graz · VAT ID ATU81922038 · <a href="mailto:apps@nxtchange-consulting.com">apps@nxtchange-consulting.com</a>
+      </address>
+      <p class="note">Apple, iPhone, iCloud and App Store are trademarks of Apple Inc. OneDrive is a trademark of Microsoft Corporation, Google Drive a trademark of Google LLC.</p>
+    </footer>
+  </div>
+</body>
+</html>
