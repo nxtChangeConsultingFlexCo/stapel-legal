@@ -53,15 +53,15 @@ shows reminders only if you have allowed notifications for Stapel.
 Free of charge, you can add up to 20 receipts per calendar month with Stapel, with every feature for
 reading, checking, sorting and analysing. Saved receipts are kept without limit.
 
-“Stapel Plus” is a yearly subscription. It allows unlimited receipts per month, filing as PDF into
-your cloud folder, automatic filing after saving and export as a CSV file. The price is shown in the
-app and in the App Store.
+“Stapel Plus” is a subscription, yearly or monthly. It allows unlimited receipts per month, filing as PDF into
+your cloud folder, automatic filing after saving and export as a CSV file. Prices are shown in the app and
+in the App Store.
 
 For the purchase:
 
 - The purchase runs through your Apple Account. The contracting party for the payment is Apple.
-- The subscription renews automatically for a year unless you cancel it at least 24 hours before it
-  ends. The amount is charged to your Apple Account within the last 24 hours before it ends.
+- The subscription renews automatically at the end of each period unless you cancel it at least 24 hours
+  before it ends. The amount is charged to your Apple Account within the last 24 hours before it ends.
 - You can cancel at any time under iPhone Settings › Apple Account › Subscriptions. Plus stays active
   until the end of the paid period.
 - Refunds are decided by Apple under its rules. You request them from Apple at

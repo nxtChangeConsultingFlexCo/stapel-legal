@@ -55,15 +55,15 @@ dir das. Erinnerungen zeigt iOS nur, wenn du Mitteilungen für Stapel erlaubt ha
 Kostenlos kannst du mit Stapel bis zu 20 Belege je Kalendermonat erfassen, mit allen Funktionen zum
 Lesen, Prüfen, Ordnen und Auswerten. Gespeicherte Belege bleiben ohne Grenze erhalten.
 
-„Stapel Plus“ ist ein Jahresabonnement. Es erlaubt unbegrenzt viele Belege je Monat, die Ablage als PDF
-in deinem Cloud-Ordner, die automatische Ablage nach dem Sichern und den Export als CSV-Datei. Der
-Preis steht in der App und im App Store.
+„Stapel Plus“ ist ein Abonnement, als Jahres- oder Monatsabo. Es erlaubt unbegrenzt viele Belege je Monat, die Ablage als PDF
+in deinem Cloud-Ordner, die automatische Ablage nach dem Sichern und den Export als CSV-Datei. Die
+Preise stehen in der App und im App Store.
 
 Für den Kauf gilt:
 
 - Der Kauf läuft über deinen Apple-Account. Vertragspartner für die Zahlung ist Apple.
-- Das Abo verlängert sich automatisch um ein Jahr, wenn du es nicht mindestens 24 Stunden vor Ablauf
-  kündigst. Der Betrag wird innerhalb der letzten 24 Stunden vor Ablauf über deinen Apple-Account
+- Das Abo verlängert sich automatisch zum Ende jeder Laufzeit, wenn du es nicht mindestens 24 Stunden
+  vor Ablauf kündigst. Der Betrag wird innerhalb der letzten 24 Stunden vor Ablauf über deinen Apple-Account
   abgebucht.
 - Kündigen kannst du jederzeit unter iPhone-Einstellungen › Apple-Account › Abos. Bis zum Ende des
   bezahlten Zeitraums bleibt Plus aktiv.
