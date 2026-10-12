@@ -1,0 +1,5 @@
+title: Stapel
+description: Rechtstexte zur iPhone-App Stapel
+lang: de
+theme: jekyll-theme-primer
+exclude: [tools, README.md]
