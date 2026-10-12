@@ -75,8 +75,8 @@ Text verlässt dafür dein Gerät, auch nicht an Apple.
 Mit Stapel Plus kannst du einen Ordner wählen, in den die App Belege als PDF legt. Die Wahl triffst du
 in der Dateien-App von iOS; der Ordner kann in iCloud Drive, in OneDrive, in Google Drive oder bei einem
 anderen Anbieter liegen, dessen App du installiert hast. Stapel schreibt nur in diesen Ordner und liest
-nichts daraus. Der Dateiname enthält Datum, Aussteller und Summe des Belegs, zum Beispiel
-„2026-10-12 Billa 47,80.pdf“.
+nichts daraus. Der Dateiname folgt einer Vorlage, die du in der App festlegst, etwa aus Datum, Aussteller,
+Betreff und Summe des Belegs, zum Beispiel „2026-10-12 Billa 47,80.pdf“.
 
 Was mit der Datei im Ordner geschieht, bestimmt der jeweilige Anbieter nach seinem Vertrag mit dir und
 seiner Datenschutzerklärung: Apple für iCloud Drive (https://www.apple.com/legal/privacy/), Microsoft für

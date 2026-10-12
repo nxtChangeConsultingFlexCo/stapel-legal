@@ -72,7 +72,8 @@ leaves your device for this, not even to Apple.
 With Stapel Plus you can choose a folder into which the app files receipts as PDFs. You choose it in
 the Files app of iOS; the folder can be in iCloud Drive, in OneDrive, in Google Drive or with another
 provider whose app you have installed. Stapel only writes into this folder and reads nothing from it.
-The file name contains the receipt’s date, issuer and total, for example “2026-10-12 Billa 47,80.pdf”.
+The file name follows a template you set in the app, for example from the receipt’s date, issuer, subject and
+total, such as “2026-10-12 Billa 47.80.pdf”.
 
 What happens to the file in the folder is governed by the respective provider under its contract with
 you and its privacy policy: Apple for iCloud Drive (https://www.apple.com/legal/privacy/), Microsoft
