@@ -31,9 +31,14 @@ Teile ein PDF oder Bild über das Teilen-Menü mit Stapel, etwa aus Mail oder au
 Beleg liegt dann auf dem Stapel; öffne die App, und sie liest ihn. Alternativ: „Öffnen mit Stapel“.
 
 **Die Ablage in meinem Cloud-Ordner klappt nicht.**
-Wähle den Ordner unter Mehr › Cloud-Ordner neu. Für OneDrive oder Google Drive muss die App des
+Wähle den Ordner unter Mehr › Ablage neu. Für OneDrive oder Google Drive muss die App des
 Anbieters installiert und in der Dateien-App eingeschaltet sein (Dateien › Durchsuchen › „…“ ›
 Bearbeiten). Ist der Speicher des Dienstes voll, scheitert das Ablegen; die App sagt dir das.
+
+**Ein OneDrive-Ordner lässt sich im Dateien-Dialog nicht wählen (Knopf „Öffnen“ ausgegraut).**
+Die OneDrive-App von Microsoft gibt anderen Apps keinen ganzen Ordner frei, nur einzelne Dateien.
+Verbinde stattdessen in Stapel unter Mehr › Ablage dein Microsoft-Konto („Bei Microsoft anmelden“)
+und wähle dort den Zielordner.
 
 **Noch 0 von 20 Belegen gratis.**
 Gratis sind 20 Belege je Kalendermonat. Am Monatsersten zählt die App neu. Unbegrenzt mit Stapel
@@ -94,9 +99,14 @@ Share a PDF or image with Stapel from the share sheet, for example from Mail or 
 sits on the pile; open the app and it reads it. Alternatively: “Open in Stapel”.
 
 **Filing into my cloud folder does not work.**
-Choose the folder again under More › Cloud folder. For OneDrive or Google Drive, the provider’s app must
+Choose the folder again under More › Filing. For OneDrive or Google Drive, the provider’s app must
 be installed and enabled in the Files app (Files › Browse › “…” › Edit). If the service’s storage is
 full, filing fails; the app tells you.
+
+**A OneDrive folder cannot be chosen in the Files dialog (“Open” is greyed out).**
+Microsoft’s OneDrive app does not give other apps access to a whole folder, only to single files.
+Instead, connect your Microsoft account in Stapel under More › Filing (“Sign in with Microsoft”) and
+choose the target folder there.
 
 **0 of 20 free receipts left.**
 20 receipts per calendar month are free. The app counts afresh on the first of the month. Unlimited

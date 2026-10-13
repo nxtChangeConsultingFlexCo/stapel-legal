@@ -5,15 +5,15 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung für Stapel
 
-Stand: 12. Oktober 2026
+Stand: 13. Oktober 2026
 
 ## Kurz gesagt
 
 Stapel hat keinen Account, keinen Server und keine Analyse-Werkzeuge. Deine Belege, die erkannten
 Posten und Kategorien bleiben auf deinem iPhone. Wir bekommen keine Daten von dir. Nach außen verbindet
-sich die App nur mit dem App Store für den Kauf von Stapel Plus. Wenn du es ausdrücklich einrichtest,
-legt sie außerdem PDFs in einen Ordner, den du in der Dateien-App wählst, etwa in iCloud Drive oder
-OneDrive. Dieser Ordner gehört dir, nicht uns.
+sich die App mit dem App Store für den Kauf von Stapel Plus. Wenn du es ausdrücklich einrichtest,
+legt sie außerdem PDFs in einen Ordner, den du in der Dateien-App wählst, etwa in iCloud Drive, oder
+direkt in dein OneDrive, wenn du dein Microsoft-Konto verbindest. Dieser Ordner gehört dir, nicht uns.
 
 ## Verantwortlicher
 
@@ -37,6 +37,8 @@ Die App speichert auf deinem iPhone:
   zuletzt gegeben hast,
 - wie viele Belege du im laufenden Monat erfasst hast (für die Gratis-Grenze),
 - ein Lesezeichen auf den Ablageordner, den du gewählt hast,
+- wenn du OneDrive verbindest: die Anmeldedaten dafür, den Kontonamen und den Zielordner (siehe
+  „OneDrive (optional)“),
 - ob Stapel Plus aktiv ist.
 
 Diese Daten liegen ausschließlich im geschützten Speicherbereich der App auf deinem Gerät. Sie werden
@@ -84,6 +86,37 @@ OneDrive (https://privacy.microsoft.com), Google für Google Drive (https://poli
 Wir haben darauf keinen Einfluss und keinen Zugriff. Du kannst den Ordner in der App jederzeit entfernen;
 dann legt die App nichts mehr ab.
 
+## OneDrive (optional)
+
+Statt über die Dateien-App kannst du unter Mehr › Ablage dein Microsoft-Konto verbinden („Bei Microsoft
+anmelden“). Das ist freiwillig; ohne Microsoft-Konto funktioniert die App vollständig.
+
+Die Anmeldung läuft in einem Anmeldefenster von Microsoft (OAuth 2.0 mit PKCE). Dein Passwort gibst du
+nur bei Microsoft ein; Stapel sieht es nie. Stapel bittet dabei um diese Berechtigungen: Dateien in
+deinem OneDrive lesen und schreiben (Files.ReadWrite), Name und E-Mail-Adresse deines Kontos
+(User.Read) und dauerhaften Zugriff, damit du dich nicht jedes Mal neu anmelden musst (offline_access).
+
+Stapel speichert dafür auf deinem iPhone ein Zugriffstoken und ein Erneuerungstoken im Schlüsselbund
+von iOS sowie den Kontonamen und den Ordner, den du als Ziel wählst, in den Einstellungen der App.
+
+Stapel überträgt Belege als PDF in diesen Ordner. Außerdem liest die App die Liste deiner Ordner,
+damit du das Ziel wählen kannst, und den Namen deines Kontos, um ihn dir anzuzeigen. Andere Dateien in
+deinem OneDrive liest Stapel nicht.
+
+Die Daten gehen direkt von deinem iPhone an Microsoft (Microsoft Graph unter graph.microsoft.com, die
+Anmeldung unter login.microsoftonline.com). Wir betreiben dafür keinen Server und erhalten nichts davon,
+weder die Anmeldedaten noch die Belege. Für die Verarbeitung durch Microsoft gilt die
+Datenschutzerklärung von Microsoft: https://privacy.microsoft.com/privacystatement
+
+Trennen kannst du die Verbindung jederzeit in der App, indem du dich unter Mehr › Ablage abmeldest. Dann löscht
+Stapel die Tokens, den Kontonamen und den Zielordner von deinem iPhone. PDFs, die schon in deinem
+OneDrive liegen, bleiben dort. Die Berechtigung selbst entziehst du bei Microsoft: für ein privates
+Konto unter https://account.live.com/consent/Manage, für ein Firmen- oder Schulkonto unter
+https://myapps.microsoft.com
+
+Rechtsgrundlage ist die Erfüllung des Vertrags mit dir (Art. 6 Abs. 1 lit. b DSGVO), denn du richtest
+die Ablage ausdrücklich ein.
+
 ## Mitteilungen
 
 Wenn du bei einem Beleg eine Garantie oder eine Zahlungsfrist einträgst, bietet die App an, dich
@@ -113,10 +146,11 @@ iPhone-Einstellungen › Datenschutz & Sicherheit › Analyse & Verbesserungen.
 - kein Benutzerkonto, keine Registrierung,
 - keine Übertragung an eigene Server, es gibt keine,
 - keine Analyse-, Werbe- oder Tracking-Dienste,
-- keine Weitergabe von Daten an Dritte,
+- keine Weitergabe von Daten an Dritte, außer an Microsoft, wenn du OneDrive selbst verbindest,
 - kein Zugriff auf Standort, Mikrofon oder Kontakte,
 - Kamera und Fotos nur, wenn du einen Beleg erfasst,
-- kein Lesen deines Cloud-Ordners, nur Schreiben, und nur wenn du ihn gewählt hast.
+- kein Lesen deines Cloud-Ordners, nur Schreiben, und nur wenn du ihn gewählt hast; bei OneDrive
+  liest die App zusätzlich nur die Ordnerliste und deinen Kontonamen.
 
 ## Diese Website
 

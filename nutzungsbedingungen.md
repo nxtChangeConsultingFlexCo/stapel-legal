@@ -5,7 +5,7 @@ permalink: /nutzungsbedingungen/
 
 # Nutzungsbedingungen für Stapel
 
-Stand: 12. Oktober 2026
+Stand: 13. Oktober 2026
 
 ## 1. Wer wir sind
 
@@ -48,7 +48,8 @@ lange eine Garantie oder Gewährleistung gilt, ergibt sich aus dem Kauf, nicht a
 
 Die Ablage in deinem Cloud-Ordner hängt vom jeweiligen Dienst ab: Ist der Ordner nicht erreichbar,
 die App des Anbieters nicht installiert oder der Speicher voll, kann die App nicht ablegen und sagt
-dir das. Erinnerungen zeigt iOS nur, wenn du Mitteilungen für Stapel erlaubt hast.
+dir das. Verbindest du OneDrive direkt mit deinem Microsoft-Konto, ist Microsoft ein eigener Anbieter
+mit eigenen Bedingungen; ob OneDrive erreichbar ist, liegt bei Microsoft. Erinnerungen zeigt iOS nur, wenn du Mitteilungen für Stapel erlaubt hast.
 
 ## 4. Gratis und Plus
 

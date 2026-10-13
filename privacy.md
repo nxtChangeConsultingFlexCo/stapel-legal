@@ -5,14 +5,15 @@ permalink: /privacy/
 
 # Privacy Policy for Stapel
 
-Last updated: 12 October 2026
+Last updated: 13 October 2026
 
 ## In short
 
 Stapel has no account, no server and no analytics. Your receipts, the recognised line items and the
-categories stay on your iPhone. We receive no data from you. The only outside connection the app makes
-is to the App Store, for buying Stapel Plus. If you set it up, the app also files PDFs into a folder
-you choose in the Files app, for example in iCloud Drive or OneDrive. That folder is yours, not ours.
+categories stay on your iPhone. We receive no data from you. The app connects to the App Store for buying
+Stapel Plus. If you set it up, the app also files PDFs into a folder you choose in the Files app, for
+example in iCloud Drive, or directly into your OneDrive if you connect your Microsoft account. That
+folder is yours, not ours.
 
 ## Controller
 
@@ -35,6 +36,8 @@ The app stores on your iPhone:
 - what you teach the app about categories: which category you last gave an issuer or a product,
 - how many receipts you have added in the current month (for the free limit),
 - a bookmark to the filing folder you chose,
+- if you connect OneDrive: the sign-in tokens for it, the account name and the target folder (see
+  “OneDrive (optional)”),
 - whether Stapel Plus is active.
 
 This data lives only in the app’s protected storage on your device. It is not sent to us or to anyone
@@ -81,6 +84,36 @@ for OneDrive (https://privacy.microsoft.com), Google for Google Drive
 (https://policies.google.com/privacy). We have no influence on it and no access. You can remove the
 folder in the app at any time; the app then files nothing more.
 
+## OneDrive (optional)
+
+Instead of using the Files app, you can connect your Microsoft account under More › Filing (“Sign in
+with Microsoft”). This is voluntary; the app works fully without a Microsoft account.
+
+You sign in in a sign-in window from Microsoft (OAuth 2.0 with PKCE). You enter your password only at
+Microsoft; Stapel never sees it. Stapel asks for these permissions: reading and writing files in your
+OneDrive (Files.ReadWrite), the name and e-mail address of your account (User.Read) and lasting
+access, so that you do not have to sign in every time (offline_access).
+
+For this, Stapel stores on your iPhone an access token and a refresh token in the iOS keychain, and
+the account name and the folder you choose as the target in the app’s settings.
+
+Stapel uploads receipts as PDFs into this folder. The app also reads the list of your folders so that
+you can choose the target, and the name of your account to show it to you. Stapel reads no other
+files in your OneDrive.
+
+The data goes directly from your iPhone to Microsoft (Microsoft Graph at graph.microsoft.com, sign-in
+at login.microsoftonline.com). We run no server for this and receive nothing, neither the sign-in data
+nor the receipts. Microsoft’s privacy statement applies to Microsoft’s processing:
+https://privacy.microsoft.com/privacystatement
+
+You can disconnect at any time in the app by signing out under More › Filing. Stapel then deletes the
+tokens, the account name and the target folder from your iPhone. PDFs already in your OneDrive stay
+there. You revoke the permission itself at Microsoft: for a personal account at
+https://account.live.com/consent/Manage, for a work or school account at https://myapps.microsoft.com
+
+The legal basis is the performance of the contract with you (Art. 6 (1) (b) GDPR), since you set up
+the filing yourself.
+
 ## Notifications
 
 If you enter a warranty or a payment deadline for a receipt, the app offers to remind you in advance:
@@ -109,10 +142,11 @@ Analytics & Improvements.
 - no user account, no registration,
 - no transfer to our own servers, there are none,
 - no analytics, advertising or tracking services,
-- no sharing of data with third parties,
+- no sharing of data with third parties, except with Microsoft if you connect OneDrive yourself,
 - no access to location, microphone or contacts,
 - camera and photos only when you add a receipt,
-- no reading of your cloud folder, only writing, and only if you chose one.
+- no reading of your cloud folder, only writing, and only if you chose one; with OneDrive the app
+  additionally reads only the folder list and your account name.
 
 ## This website
 

@@ -5,7 +5,7 @@ permalink: /terms/
 
 # Terms of Use for Stapel
 
-Last updated: 12 October 2026
+Last updated: 13 October 2026
 
 ## 1. Who we are
 
@@ -45,7 +45,8 @@ insurers or retailers depends on their rules. Whether and for how long a warrant
 follows from the purchase, not from the app.
 
 Filing into your cloud folder depends on the respective service: if the folder is unreachable, the
-provider’s app is not installed or the storage is full, the app cannot file and tells you so. iOS
+provider’s app is not installed or the storage is full, the app cannot file and tells you so. If you connect OneDrive directly with your Microsoft account,
+Microsoft is a separate provider with its own terms; whether OneDrive is available is up to Microsoft. iOS
 shows reminders only if you have allowed notifications for Stapel.
 
 ## 4. Free and Plus
