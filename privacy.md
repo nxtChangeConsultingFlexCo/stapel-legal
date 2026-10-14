@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy for Stapel
 
-Last updated: 13 October 2026
+Last updated: 14 October 2026
 
 ## In short
 
@@ -33,6 +33,8 @@ The app stores on your iPhone:
   preview image, the recognised text, issuer, date, total, tax rates, the individual line items with
   quantity and price, type and category, note, warranty and payment deadline, and the file name
   under which a receipt was filed,
+- which stack a receipt sits on (such as Personal or Business), its document type and when you
+  handed it over to your accountant,
 - what you teach the app about categories: which category you last gave an issuer or a product,
 - how many receipts you have added in the current month (for the free limit),
 - a bookmark to the filing folder you chose,
@@ -113,6 +115,19 @@ https://account.live.com/consent/Manage, for a work or school account at https:/
 
 The legal basis is the performance of the contract with you (Art. 6 (1) (b) GDPR), since you set up
 the filing yourself.
+
+<!-- Draft, last updated 14 Oct 2026: section on the hand-over to your accountant, to be reviewed by counsel before launch. -->
+
+## Hand-over to your accountant (Stapel Plus)
+
+With Stapel Plus you can put the receipts of a stack for a period together as a ZIP file, for example
+for your tax adviser. It contains the receipts’ PDFs and a CSV file with date, issuer, subject, amount,
+currency, tax rates, document type, category, file name and note. The app creates the ZIP on your
+iPhone and then opens the iOS share sheet; this is an export in which Stapel itself sends no data.
+Stapel has no connection to your accountant or their software. Where the ZIP goes, for example to Mail,
+to the Files app or to your accountant’s portal, is up to you; the terms of the service you choose and
+your agreement with your accountant apply. After sharing, the app remembers on your device that the
+receipts were handed over and deletes the intermediate files.
 
 ## Notifications
 

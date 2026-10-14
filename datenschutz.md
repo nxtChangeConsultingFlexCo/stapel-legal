@@ -5,7 +5,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung für Stapel
 
-Stand: 13. Oktober 2026
+Stand: 14. Oktober 2026
 
 ## Kurz gesagt
 
@@ -33,6 +33,8 @@ Die App speichert auf deinem iPhone:
   Vorschaubild, den erkannten Text, Aussteller, Datum, Summe, Steuersätze, die einzelnen Posten mit
   Menge und Preis, Art und Kategorie, Notiz, Garantie- und Zahlungsfrist sowie den Dateinamen, unter
   dem ein Beleg abgelegt wurde,
+- auf welchem Stapel ein Beleg liegt (etwa Privat oder Firma), seinen Belegkreis und wann du ihn an
+  die Kanzlei übergeben hast,
 - was du der App über Kategorien beibringst: welche Kategorie du einem Aussteller oder Produkt
   zuletzt gegeben hast,
 - wie viele Belege du im laufenden Monat erfasst hast (für die Gratis-Grenze),
@@ -116,6 +118,20 @@ https://myapps.microsoft.com
 
 Rechtsgrundlage ist die Erfüllung des Vertrags mit dir (Art. 6 Abs. 1 lit. b DSGVO), denn du richtest
 die Ablage ausdrücklich ein.
+
+<!-- Entwurf, Stand 14.10.2026: Abschnitt zur Übergabe an die Kanzlei, vor dem Launch anwaltlich prüfen. -->
+
+## Übergabe an die Kanzlei (Stapel Plus)
+
+Mit Stapel Plus kannst du die Belege eines Stapels für einen Zeitraum als ZIP-Datei zusammenstellen,
+etwa für deine Steuerberatung. Darin liegen die PDFs der Belege und eine CSV-Datei mit Datum,
+Aussteller, Betreff, Betrag, Währung, Steuersätzen, Belegkreis, Kategorie, Dateiname und Notiz. Die App
+erstellt das ZIP auf deinem iPhone und öffnet dann das Teilen-Blatt von iOS; das ist ein Export, bei dem
+Stapel selbst keine Daten sendet. Stapel hat keine Verbindung zu deiner Kanzlei oder zu deren Programm.
+Wohin das ZIP geht, etwa in Mail, in die Dateien-App oder in das Portal deiner Kanzlei, bestimmst du;
+dafür gelten die Bedingungen des Dienstes, den du wählst, und deine Vereinbarung mit der Kanzlei. Nach
+dem Teilen merkt sich die App auf deinem Gerät, dass die Belege übergeben sind, und löscht die
+Zwischendateien.
 
 ## Mitteilungen
 

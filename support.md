@@ -40,6 +40,22 @@ Die OneDrive-App von Microsoft gibt anderen Apps keinen ganzen Ordner frei, nur 
 Verbinde stattdessen in Stapel unter Mehr › Ablage dein Microsoft-Konto („Bei Microsoft anmelden“)
 und wähle dort den Zielordner.
 
+**Wie trenne ich Privat und Firma?**
+Jeder Beleg liegt auf einem Stapel. Am Anfang gibt es den Stapel „Privat“; weitere legst du unter
+Mehr › Stapel an, etwa „Firma“. Über der Liste wählst du einen Stapel oder „Alle“; ein neuer Beleg
+landet auf dem gewählten Stapel, im Editor kannst du ihn verschieben. Überblick und CSV-Export folgen
+dem gewählten Stapel, und mit dem Platzhalter {Stapel} steht er auch im Dateinamen. Ein Stapel ist
+gratis, weitere gibt es mit Stapel Plus. Stapel bleibt dabei ein Überblick, keine Buchhaltung.
+
+**Wie bekommt meine Steuerberaterin die Belege?**
+Mit Stapel Plus über die Übergabe an die Kanzlei: Wähle über der Liste einen Stapel, tippe auf „An die
+Kanzlei übergeben“ und wähle den Zeitraum. Stapel erstellt ein ZIP mit einem Ordner je Belegkreis
+(Eingangsrechnungen, Ausgangsrechnungen, Kassabelege, Bankbelege, Sonstiges) und einer CSV-Datei.
+Das ZIP lädst du im Portal deiner Kanzlei hoch, etwa im Klientenportal von RZL oder in BMD, oder du
+schickst es über das Teilen-Blatt an die Kanzlei. Den Belegkreis eines Belegs änderst du im Editor.
+Übergebene Belege sind in der Liste markiert. Stapel hat keine direkte Verbindung zur Kanzlei; was du
+nicht selbst teilst, bleibt auf deinem iPhone.
+
 **Noch 0 von 20 Belegen gratis.**
 Gratis sind 20 Belege je Kalendermonat. Am Monatsersten zählt die App neu. Unbegrenzt mit Stapel
 Plus. Gespeicherte Belege bleiben immer erhalten.
@@ -107,6 +123,22 @@ full, filing fails; the app tells you.
 Microsoft’s OneDrive app does not give other apps access to a whole folder, only to single files.
 Instead, connect your Microsoft account in Stapel under More › Filing (“Sign in with Microsoft”) and
 choose the target folder there.
+
+**How do I keep personal and business apart?**
+Every receipt sits on a stack. You start with the stack “Personal”; add more under More › Stack,
+such as “Business”. Above the list you choose a stack or “All”; a new receipt goes onto the chosen
+stack, and you can move it in the editor. The overview and the CSV export follow the chosen stack,
+and with the placeholder {Stack} its name also goes into the file name. One stack is free, more come
+with Stapel Plus. Stapel stays an overview, not bookkeeping.
+
+**How does my accountant get the receipts?**
+With Stapel Plus, through the hand-over to your accountant: choose a stack above the list, tap “Hand
+over to accountant” and pick the period. Stapel creates a ZIP with one folder per document type
+(purchase invoices, sales invoices, cash receipts, bank statements, other) and a CSV file. You upload
+the ZIP to your accountant’s portal, such as the RZL client portal or BMD, or send it to them through
+the share sheet. You change a receipt’s document type in the editor. Handed-over receipts are marked
+in the list. Stapel has no direct connection to your accountant; whatever you do not share yourself
+stays on your iPhone.
 
 **0 of 20 free receipts left.**
 20 receipts per calendar month are free. The app counts afresh on the first of the month. Unlimited
