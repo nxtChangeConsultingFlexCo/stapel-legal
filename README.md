@@ -11,8 +11,14 @@ Website und Rechtstexte zur iPhone-App Stapel, erreichbar unter https://stapel.n
   `assets/press/stapel-icon-1024.png` (`og:image`, Pressebild): das App-Icon „Rechnung und Bon mit Akzent“ (G2), aus dem
   SVG mit `qlmanage -t -s 1024` gerendert und mit `sips -Z` verkleinert. Dasselbe 180-px-Bild liegt im Register
   nxtchange.app (Repo `apps-site`, `assets/stapel-180.png`).
-- `datenschutz.md`, `nutzungsbedingungen.md`, `support.md` → `/datenschutz/`, `/nutzungsbedingungen/`, `/support/`
-- `privacy.md`, `terms.md`, `en/index.html` → `/privacy/`, `/terms/`, `/en/` (Englisch, Rückfall für alle Länder außer DE/AT/CH)
+- `datenschutz.md`, `nutzungsbedingungen.md`, `support.md`, `impressum.md` → `/datenschutz/`, `/nutzungsbedingungen/`,
+  `/support/`, `/impressum/`
+- `privacy.md`, `terms.md`, `imprint.md`, `en/index.html` → `/privacy/`, `/terms/`, `/imprint/`, `/en/` (Englisch, Rückfall für
+  alle Länder außer DE/AT/CH; die englischen Markdown-Seiten tragen `lang: en` im Front Matter, das steuert `<html lang>`
+  und die Fußzeile des Layouts)
+- `impressum.md` und `imprint.md` (Legal Notice): Anbieterangaben nach § 5 ECG und § 25 MedienG, inhaltlich gleich mit
+  nxtchange.app/impressum/ (Repo `apps-site`); Firmendaten dort und hier gleich halten. Adresszeilen in Markdown brauchen
+  `<br>`, GitHub Pages rendert einfache Zeilenumbrüche nicht als Umbruch.
 - `CNAME` bindet die Subdomain; der DNS-Eintrag liegt bei Hostinger: CNAME `stapel` → `nxtchangeconsultingflexco.github.io`
 
 Die Adressen stehen in der App in `App/AppModel.swift` (`Legal`) und gehören in App Store Connect.

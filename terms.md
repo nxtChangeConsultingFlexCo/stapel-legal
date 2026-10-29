@@ -1,6 +1,7 @@
 ---
 title: Terms of Use
 permalink: /terms/
+lang: en
 ---
 
 # Terms of Use for Stapel

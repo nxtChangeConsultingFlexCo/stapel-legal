@@ -86,6 +86,7 @@ Ansprechpartner: Karl Maier · apps@nxtchange-consulting.com
 
 Nutzungsbedingungen: https://stapel.nxtchange.app/nutzungsbedingungen/
 Datenschutz: https://stapel.nxtchange.app/datenschutz/
+Impressum: https://stapel.nxtchange.app/impressum/
 
 ---
 
@@ -170,3 +171,4 @@ Contact: Karl Maier · apps@nxtchange-consulting.com
 
 Terms of Use: https://stapel.nxtchange.app/terms/
 Privacy Policy: https://stapel.nxtchange.app/privacy/
+Legal Notice: https://stapel.nxtchange.app/imprint/

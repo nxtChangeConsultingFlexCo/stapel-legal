@@ -1,6 +1,7 @@
 ---
 title: Privacy Policy
 permalink: /privacy/
+lang: en
 ---
 
 # Privacy Policy for Stapel

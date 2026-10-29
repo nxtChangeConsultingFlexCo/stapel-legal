@@ -17,7 +17,11 @@
       {{ content }}
 
       <footer class="mt-5 pt-3 border-top f6 text-gray color-fg-muted">
-        <a href="{{ "/" | absolute_url }}">{{ site.title }}</a> · <a href="https://nxtchange.app/">nxtChange Apps</a>
+{%- if page.lang == "en" %}
+        <a href="{{ "/en/" | absolute_url }}">{{ site.title }}</a> · <a href="{{ "/imprint/" | absolute_url }}">Legal Notice</a> · <a href="https://nxtchange.app/">nxtChange Apps</a>
+{%- else %}
+        <a href="{{ "/" | absolute_url }}">{{ site.title }}</a> · <a href="{{ "/impressum/" | absolute_url }}">Impressum</a> · <a href="https://nxtchange.app/">nxtChange Apps</a>
+{%- endif %}
       </footer>
     </div>
   </body>
