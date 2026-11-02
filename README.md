@@ -6,7 +6,10 @@ Website und Rechtstexte zur iPhone-App Stapel, erreichbar unter https://stapel.n
 
 - `index.html` Startseite (bis zum Launch ohne Store-Abzeichen; „Bald im App Store“ ist kein Link). Statisches HTML mit
   eingebettetem CSS, keine externen Schriften, Skripte oder Tracker; `en/index.html` hat dasselbe CSS, Änderungen daran
-  in beiden Dateien gleich halten.
+  in beiden Dateien gleich halten. Ebenso von Hand gleich halten: Canonical, die absoluten hreflang-Links (de, en,
+  x-default = deutsche Seite) und das JSON-LD (`@graph` mit Organization, WebSite, WebPage je Seite, SoftwareApplication; WebSite und App
+  haben auf beiden Seiten dieselbe @id und url) im `<head>` beider
+  Startseiten; die Meta-Description steht dort auch als `description` der SoftwareApplication.
 - `assets/img/icon-64.png` (Favicon) und `assets/img/icon-180.png` (Apple-Touch-Icon, Markenzeichen im Kopf) und
   `assets/press/stapel-icon-1024.png` (`og:image`, Pressebild): das App-Icon „Rechnung und Bon mit Akzent“ (G2), aus dem
   SVG mit `qlmanage -t -s 1024` gerendert und mit `sips -Z` verkleinert. Dasselbe 180-px-Bild liegt im Register
