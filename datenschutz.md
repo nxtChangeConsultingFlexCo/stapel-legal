@@ -1,6 +1,7 @@
 ---
 title: Datenschutzerklärung
 permalink: /datenschutz/
+description: "Datenschutzerklärung der iPhone-App Stapel: welche Daten auf dem Gerät bleiben, was die App nach außen verbindet und welche Rechte du hast."
 ---
 
 # Datenschutzerklärung für Stapel

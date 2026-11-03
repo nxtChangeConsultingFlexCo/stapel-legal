@@ -2,6 +2,7 @@
 title: Terms of Use
 permalink: /terms/
 lang: en
+description: "Terms of use of the Stapel iPhone app by nxtChange Consulting FlexCo: provider, scope of the service and rules of use."
 ---
 
 # Terms of Use for Stapel

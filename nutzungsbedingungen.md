@@ -1,6 +1,7 @@
 ---
 title: Nutzungsbedingungen
 permalink: /nutzungsbedingungen/
+description: "Nutzungsbedingungen der iPhone-App Stapel von nxtChange Consulting FlexCo: Anbieter, Leistungsumfang und Regeln zur Nutzung."
 ---
 
 # Nutzungsbedingungen für Stapel

@@ -1,6 +1,7 @@
 ---
 title: Support
 permalink: /support/
+description: "Support für die iPhone-App Stapel: Kontakt, häufige Fragen und Anbieterangaben. Support for the Stapel iPhone app: contact and FAQ."
 ---
 
 # Support für Stapel · Support for Stapel

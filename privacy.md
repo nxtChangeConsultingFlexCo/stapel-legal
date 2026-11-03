@@ -2,6 +2,7 @@
 title: Privacy Policy
 permalink: /privacy/
 lang: en
+description: "Privacy policy of the Stapel iPhone app: which data stays on your device, what the app connects to and what rights you have."
 ---
 
 # Privacy Policy for Stapel
