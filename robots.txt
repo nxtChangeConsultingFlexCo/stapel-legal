@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://stapel.nxtchange.app/sitemap.xml
