@@ -8,7 +8,7 @@ Website und Rechtstexte zur iPhone-App Stapel, erreichbar unter https://stapel.n
   eingebettetem CSS, keine externen Schriften, Skripte oder Tracker; `en/index.html` hat dasselbe CSS, Änderungen daran
   in beiden Dateien gleich halten. Ebenso von Hand gleich halten: Canonical, die absoluten hreflang-Links (de, en,
   x-default = deutsche Seite) und das JSON-LD (`@graph` mit Organization, WebSite, WebPage je Seite, SoftwareApplication; WebSite und App
-  haben auf beiden Seiten dieselbe @id; die url des Knotens `#app` zeigt je auf die eigene Startseite) im `<head>` beider
+  haben auf beiden Seiten dieselbe @id; WebSite und App haben auch dieselbe url, die der deutschen Startseite; die Sprachfassung zeigen hreflang und canonical) im `<head>` beider
   Startseiten; die Meta-Description steht dort auch als `description` der SoftwareApplication.
 - `assets/img/icon-64.png` (Favicon) und `assets/img/icon-180.png` (Apple-Touch-Icon, Markenzeichen im Kopf) und
   `assets/press/stapel-icon-1024.png` (`og:image`, Pressebild): das App-Icon „Rechnung und Bon mit Akzent“ (G2), aus dem
@@ -22,7 +22,7 @@ Website und Rechtstexte zur iPhone-App Stapel, erreichbar unter https://stapel.n
 - `impressum.md` und `imprint.md` (Legal Notice): Anbieterangaben nach § 5 ECG und § 25 MedienG, inhaltlich gleich mit
   nxtchange.app/impressum/ (Repo `apps-site`); Firmendaten dort und hier gleich halten. Adresszeilen in Markdown brauchen
   `<br>`, GitHub Pages rendert einfache Zeilenumbrüche nicht als Umbruch.
-- `sitemap.xml` (statisch, von Hand gepflegt, Startseiten mit hreflang) und `robots.txt` (Verweis auf die Sitemap); neue Seiten dort eintragen.
+- `sitemap.xml` ist statisch und wird von Hand gepflegt (wegen hreflang der Startseiten); bei neuen Seiten ergänzen. Es gibt weder Gemfile noch `plugins:` in `_config.yml`; ein evtl. von GitHub Pages standardmäßig geladenes jekyll-sitemap erzeugt keine eigene Datei, wenn eine `sitemap.xml` im Repo liegt (nach dem ersten Deploy prüfen). `robots.txt` verweist auf die Sitemap.
 - `CNAME` bindet die Subdomain; der DNS-Eintrag liegt bei Hostinger: CNAME `stapel` → `nxtchangeconsultingflexco.github.io`
 
 Die Adressen stehen in der App in `App/AppModel.swift` (`Legal`) und gehören in App Store Connect.
